@@ -1,0 +1,44 @@
+#                                   MasterInfo Config
+#                        Plugin desarrollado por: Masterrecording
+#                            Discord de soporte: DEWAFGAMER#3320
+#
+
+Item1:
+    Material: 'GOLD_NUGGET'
+    Nombre: '&2&lTienda'
+    Slot: '20'
+    Respuesta: '&1&l[&r&bMasterInfo&r&1&l] &r&2&lTienda del servidor:&r&b Store.MasterHCF.cf'
+Item2:
+    Material: 'BONE'
+    Nombre: '&d&lDiscord'
+    Slot: '22'
+    Respuesta: '&1&l[&r&bMasterInfo&r&1&l] &r&2&lDiscord del servidor:&r&b https://discord.gg/tgD32PmKtQ'
+Item3:
+    Material: 'Compass'
+    Nombre: '&b&lTeam Speak'
+    Slot: '31'
+    Respuesta: '&1&l[&r&bMasterInfo&r&1&l] &r&2&lTeamSpeak del servidor:&r&b ts.MasterHCF.cf'
+
+Lenguaje:
+    
+    #El mensaje que se envía cuando el comando es ejecutado por la consola
+    Consola: '&1&l[&r&bMasterInfo&r&1&l] &r&b&lEste comando solo puede ser ejecutado por un jugador!'
+
+    #El mensaje que se envía cuando el plugin es activado
+    OnEnable:
+        
+        Line1: '<--------------------------------------------------------->'
+        
+        Line2: 'Plugin activado correctamente!'
+        
+        Line3: '<--------------------------------------------------------->'
+        
+    #El mensaje que se envía cuando el plugin es desactivado
+    OnDisable:
+        
+        Line1: '<--------------------------------------------------------->'
+        
+        Line2: 'Plugin desactivado correctamente!'
+        
+        Line3: '<--------------------------------------------------------->'
+        
